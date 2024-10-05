@@ -5,4 +5,9 @@ It's a complete garbage repo if you don't know what this is.
 
 ## Information
 
-In order to change the server, you'll need to change the Base64 variable in the Batch file named "amKiP"; the value of the variable needs to be a RAW Url encoded in Base64; Feel free to download the repo but it'll probably not benefit you.
+The "connect.bat" file will connect to "backdoor.bat", the Batch file will execute the Python script named "server.py".
+You can clone the repo if you want, to connect to your server aka the Python script via command prompt; you can download the "connect.bat" file.
+
+You are able to change the server by cloning the repo on your GitHub, and changing the Raw URL in "backdoor.bat".
+
+### Made by @snowyxxdev
