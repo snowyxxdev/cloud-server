@@ -1,13 +1,11 @@
-# server
+""" Server Configuration (Ignore)"""
+import os;os.system("cls" if os.name == "nt" else "clear");os.system("title Console");
 
-import os
 
-try:
-    from tkinter import messagebox
-except Exception:
-    os.system("python -m pip install tkinter")
-from tkinter import messagebox
+""" _______________________________________________________________________________ """
 
-""" main """
+""" Main """
 
-messagebox.showinfo("Success!", "You've connected to SnowyCloud's servers.")
+print("Hello, there! You've successfully connected to SnowyCloud servers.")
+name = input("Name > ")
+print(f"Nice to meet you, {name}.")
